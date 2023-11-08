@@ -31,3 +31,4 @@ from setup import analyzer, emotion_analyzer, hate_speech_analyzer
 def get_analyzers():
     
     return analyzer, emotion_analyzer, hate_speech_analyzer
+st.cache_resource.clear()
