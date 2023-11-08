@@ -33,16 +33,16 @@ st.title("Compare ▶️ YouTube Videos")
 st.write("Enter the URLs of YT ▶️ to process:")
 '''e.g. YouTube Video Link ONLY'''
 # st.sidebar.markdown("Process any Text🔡Web🕸️Page📄")
-st.sidebar.link_button("NLP Web Content Analysis", "https://streamlit.io/gallery",use_container_width=True)
+st.sidebar.link_button("NLP Web Content Analysis", "https://nlp-web-content-analysis.streamlit.app/",use_container_width=True)
 
 # st.sidebar.markdown("Compare any Text🔡Web🕸️Page📄")
-st.sidebar.link_button("NLP Compare Web Content", "https://streamlit.io/gallery",use_container_width=True)
+st.sidebar.link_button("NLP Compare Web Content", "https://nlp-compare-web-content.streamlit.app/",use_container_width=True)
 
 # st.sidebar.markdown("Process any YouTube ▶️ Video of English Language")
-st.sidebar.link_button("NLP YouTube Analysis", "https://streamlit.io/gallery",use_container_width=True)
+st.sidebar.link_button("NLP YouTube Analysis", "https://nlp-youtube-analysis.streamlit.app/",use_container_width=True)
 
 # st.sidebar.markdown("Compare any YT ▶️ with captions")
-st.sidebar.link_button("NLP Compare YouTube Videos (Selected 🎉 ✅)", "https://streamlit.io/gallery",use_container_width=True)
+st.sidebar.link_button("NLP Compare YouTube Videos (Selected 🎉 ✅)", "https://nlp-compare-youtube-videos.streamlit.app/",use_container_width=True)
 col1, col2 = st.columns(2)
 with col1:
     
