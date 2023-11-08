@@ -1142,6 +1142,7 @@ if st.button("Process URLs"):
         # Extract common keywords from all user transcripts
         st.write("Note: This app uses the YouTube Transcript API to retrieve captions.")    
         st.balloons()
+        st.cache_resource.clear()
         # Display a horizontal bar chart for hate speech probabilities
         # st.subheader("Hate Speech Analysis")
         # st.bar_chart(hate_speech)
